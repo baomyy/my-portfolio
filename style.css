@@ -384,7 +384,8 @@ img {
   }
 
   .about .text {
-    text-align: center;
+    text-align: justify;
+    text-align-last: left;
   }
 
   .project-card {
