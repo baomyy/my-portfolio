@@ -1,0 +1,6 @@
+E:\Portfolio\Portfolio\bin\Portfolio.dll.config
+E:\Portfolio\Portfolio\bin\Portfolio.dll
+E:\Portfolio\Portfolio\bin\Portfolio.pdb
+E:\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+E:\Portfolio\Portfolio\obj\Debug\Portfolio.dll
+E:\Portfolio\Portfolio\obj\Debug\Portfolio.pdb

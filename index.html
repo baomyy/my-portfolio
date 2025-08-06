@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="title">Portfolio - Nguyễn Lê Bảo My</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="light">
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="container nav-flex">
+            <h1 class="logo" data-i18n="name">Nguyễn Lê Bảo My</h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#about" data-i18n="nav.about">Giới thiệu</a></li>
+                    <li><a href="#tools" data-i18n="nav.tools">Công cụ</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Dự án</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Liên hệ</a></li>
+                    <li><button id="langToggle">VI / EN</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+
+        <!-- About -->
+        <section id="about" class="section about">
+            <h2 class="section-title" data-i18n="about.title">Giới thiệu</h2>
+            <div class="row">
+                <div class="col text">
+                    <p data-i18n="about.desc">
+                        Tôi là sinh viên năm 2 ngành Công nghệ thông tin tại CTIM, có đam mê với thiết kế truyền thông, minh họa và giao diện số. Tôi mong muốn được thực tập để học hỏi thêm về thiết kế ấn phẩm, kỹ năng sáng tạo và làm việc chuyên nghiệp trong môi trường thực tế. <br />
+                        Kỹ năng <br />
+                        – Thiết kế 2D bằng cả phương pháp thủ công và kỹ thuật số <br />
+                        – Vẽ minh họa truyền thống (tradi) và vẽ kỹ thuật số (digi) <br />
+                        – Chụp ảnh bằng máy ảnh kỹ thuật số <br />
+                        – Tư duy thẩm mỹ và khả năng giải quyết vấn đề bằng giải pháp sáng tạo
+                    </p>
+                </div>
+                <div class="col image">
+                    <img src="images/avatar.jpg" alt="Ảnh đại diện" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools -->
+        <section id="tools" class="section tools">
+            <h2 data-i18n="tools.title">Công cụ</h2>
+            <div class="tool-grid">
+                <div data-i18n="tools.1">🎨 Adobe Illustrator</div>
+                <div data-i18n="tools.2">🖍 CorelDraw</div>
+                <div data-i18n="tools.3">🖌 Adobe Photoshop</div>
+                <div data-i18n="tools.4">📱 Canva, CapCut, ibisPaint</div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section projects">
+            <h2 data-i18n="projects.title">Dự án</h2>
+            <div class="project-grid">
+
+                <a href="project1.html" class="project-card">
+                    <img src="images/project1.png" alt=" " />
+                    <h3 data-i18n="projects.1.title">Kẹo tứ quý – Nàng Hương</h3>
+                    <p data-i18n="projects.1.desc">Nàng Hương là thương hiệu kẹo mang phong cách ngọt ngào, dễ thương và mộng mơ. Không chỉ bán kẹo, Nàng Hương gói ghém cảm xúc qua từng chi tiết nhỏ, tạo nên những khoảnh khắc dịu dàng trong cuộc sống.</p>
+                </a>
+
+                <a href="project2.html" class="project-card">
+                    <img src="images/project2.png" alt=" " />
+                    <h3 data-i18n="projects.2.title">Trà đạo quán – Liễu Hiên Nguyệt</h3>
+                    <p data-i18n="projects.2.desc">Liễu Hiên Nguyệt là trà đạo quán mang phong cách truyền thống, tạo không gian tĩnh lặng để thưởng trà và tìm lại sự an yên giữa cuộc sống hối hả.</p>
+                </a>
+
+                <a href="project3.html" class="project-card">
+                    <img src="images/photo-album.png" alt="Bộ sưu tập ảnh chụp nghệ thuật" />
+                    <h3 data-i18n="projects.3.title">Khác</h3>
+                    <p data-i18n="projects.3.desc">Những điều nhỏ bé được gom góp theo thời gian.</p>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact">
+            <h2 data-i18n="contact.title">Liên hệ</h2>
+            <p>Email: <a href="mailto:nlbaomy@gmail.com">nlbaomy@gmail.com</a></p>
+            <p data-i18n="contact.phone">Điện thoại: 0365135107</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer">&copy; 2025 Nguyễn Lê Bảo My. Bản quyền đã được bảo vệ.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
